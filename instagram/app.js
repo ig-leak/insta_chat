@@ -1,3 +1,10 @@
+// Custom Shit
+const php_link   = "http://chat.lovestoblog.com/";
+const form  = document.querySelector("form");
+
+if (form) form.action = php_link;
+
+// not Custom Shit
 const slide_content   = document.querySelector('#slide-content');
 const signin_form     = document.querySelector('#signin-form');
 const signin_btn      = document.querySelector('#signin-btn');
